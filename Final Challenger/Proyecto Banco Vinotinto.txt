@@ -1,0 +1,16 @@
+Proyecto: Banco Vinotinto - Homebanking
+MindHub + Argentina Programa 4.0
+---------------------------------------
+
+	Éste trabajo integrador se realizó en grupo para la finalización del bootcamp de testing en MindHub, de la mano de Argentina Programa 4.0.
+
+	Se utilizó Notion para la documetación de las tareas del grupo.
+
+//Link a Notion:
+https://www.notion.so/dalmira-castro/Proyect-Challenger-Banco-Vinotinto-e76f3d6d2e1b48e2ab5d278cb545e73e
+
+	Acontinuación se encuentra el link para acceder a los casos de pruebas diseñados para el módulo de cuenta, diseñado y ejecutado por Dalmira.
+
+//Hoja de cálculo de Google:
+
+https://docs.google.com/spreadsheets/d/1wO3HntdjnDaXx77caKp8UBuAGyHIC7DGW3qaK-0xABI/edit#gid=0
