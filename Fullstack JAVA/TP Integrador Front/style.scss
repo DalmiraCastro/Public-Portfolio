@@ -1,0 +1,115 @@
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/variables-dark";
+@import "./node_modules/bootstrap/scss/maps";
+@import "./node_modules/bootstrap/scss/mixins";
+@import "./node_modules/bootstrap/scss/utilities";
+
+$custom-colors: (
+    "custom-color": #96C93E
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+$gray-800: #343a40;
+
+//Navbar
+.navbar {
+    background-color: $gray-800;
+};
+
+//Section 1
+#section1 {
+    background-image: url('/images/ba1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+};
+
+.invisible-col1 {
+    /*background-color: $gray-800;*/
+    height: 15rem;
+    opacity: .8;
+};
+
+.sec1-cont {
+    background-color: rgba(0, 0, 0, 0.5);
+};
+
+.invisible-col2 {
+    height: 10rem;
+};
+
+//Section 2
+.flex-container {
+    display: flex;
+    justify-content: center;
+};
+
+.sec-div {
+    width: 11rem;
+    height: 4.5rem;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+};
+
+.sec-text {
+    padding-top: .5rem;
+    padding-bottom: 0;
+};
+
+.sec-text::first-line {
+    font-size: .8rem;
+    font-weight: normal;
+};
+
+.cards {
+    display: flex;
+    justify-content: center;
+};
+
+.card {
+    width: 20rem;
+    margin: 0 1rem;
+};
+
+//Section 3
+#section3 {
+    margin: 2rem 0;
+};
+
+#sec3-col2 {
+    background-color: $gray-800;
+};
+
+//Section 4
+#section4 {
+    margin: 0 15rem;
+};
+
+.sec4-cont {
+    padding-bottom: 1.5rem;
+};
+
+.sec2-sec4-text {
+    font-size: .7rem;
+};
+
+#deco-text {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+};
+
+.form-sub-text {
+    font-size: .9rem;
+};
+
+//Footer
+footer {
+    padding: 1.5rem;
+    background-image: linear-gradient(to right, rgb(28, 54, 67), rgb(30, 83, 114))
+};
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap/scss/reboot";
+@import "./node_modules/bootstrap/scss/root";
